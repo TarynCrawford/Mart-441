@@ -1,0 +1,164 @@
+﻿body {
+    margin: 0;
+    font-family: sans-serif;
+
+    height: 100%;
+}
+
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://www.explore.com/img/gallery/where-to-see-beautiful-cherry-blossoms-around-the-world/l-intro-1667778429.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.hero h1 {
+    font-size: 5em;
+
+    margin-top:0;
+    margin-bottom: 0.5em;
+}
+
+.hero .nav {
+    display: flex;
+
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+
+    border: 3px solid white;
+    border-radius: 20px;
+
+    background-color:rgba(173, 216, 230, 0.8);
+}
+
+    .hero .nav a {
+        flex-grow: 1;
+        color: #fff;
+        text-decoration: none;
+        }
+
+    .hero .nav-item {
+      font-size: .75em;
+      padding: 0.5em 1em;
+      margin: 0 0.5em;
+      text-align: center;
+    }
+
+    .hero .nav-item:hover {
+       color: #fff;
+       background-color: rgba(255, 192, 203, 0.5);
+        }
+:root {
+    --color: rgb(63 63 63);
+}
+
+.parallax-container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(https://firstimageresource.oss-cn-beijing.aliyuncs.com/%E7%AC%AC1%E6%89%B9/bigmark/%E8%A3%85%E9%A5%B0%E7%94%BB/%E7%B2%BE%E5%93%81%E8%A3%85%E9%A5%B0%E7%94%BB%E9%AB%98%E6%B8%85%E5%9B%BE%E9%9B%86/bigMark%E7%B2%BE%E5%93%81%E8%A3%85%E9%A5%B0%E7%94%BB%E9%AB%98%E6%B8%85%E5%9B%BE%E9%9B%86-286735362.jpg);
+    background-position: center;
+    background-size: cover;
+    color: black;
+    row-gap: 4rem;
+    text-align: center;
+}
+
+.buffer {
+    width: 100%;
+    min-height: 60vh;
+    background-color: var(--color);
+}
+
+.parallax-container2 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 6rem 0;
+    background-image: url(https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/248220146_4200681793393146_5511559466388949623_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=0debeb&_nc_ohc=haDi8cquedQAX_QMYTk&_nc_ht=scontent-sea1-1.xx&oh=00_AfDPgnPoA2cjN-TIzmD9ZJO5hCbBHMjfH9kubMEnBWaRMg&oe=63D23F94);
+    gap: 1.6em;
+}
+
+.parallax-container3 {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(https://firstimageresource.oss-cn-beijing.aliyuncs.com/%E7%AC%AC1%E6%89%B9/bigmark/%E8%A3%85%E9%A5%B0%E7%94%BB/%E7%B2%BE%E5%93%81%E8%A3%85%E9%A5%B0%E7%94%BB%E9%AB%98%E6%B8%85%E5%9B%BE%E9%9B%86/bigMark%E7%B2%BE%E5%93%81%E8%A3%85%E9%A5%B0%E7%94%BB%E9%AB%98%E6%B8%85%E5%9B%BE%E9%9B%86-286735362.jpg);
+    background-position: center;
+    background-size: cover;
+    color: black;
+    row-gap: 4rem;
+    text-align: center;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+p {
+    max-width: 60ch;
+    padding: 0.5em;
+    line-height: 1.5;
+}
+
+h3 {
+    margin-top: 1em;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.card {
+    display: flex;
+    max-width: 320px;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem;
+    border-radius: 0.5em;
+    background-color: white;
+    box-shadow: 0 29px 38px -15px rgb(0 0 0 / 43%);
+}
+
+.card-img {
+    width: 100%;
+    height: 200px;
+    border-radius: 0.3em;
+    background-position: center;
+    background-size: cover;
+}
+
+.card:nth-of-type(1) .card-img {
+    background-image: url(https://scontent-sea1-1.xx.fbcdn.net/v/t31.18172-8/10818485_704168506379099_6363311630005397267_o.jpg?_nc_cat=106&ccb=1-7&_nc_sid=2c4854&_nc_ohc=InkBbaBH6M8AX-XFkbw&_nc_ht=scontent-sea1-1.xx&oh=00_AfDOho4U-rRP0we2cCeFHaMAy1QFTNpYFkEp82NYC7kw4g&oe=63F57101);
+}
+
+.card:nth-of-type(2) .card-img {
+    background-image: url(https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/326721107_856455562351813_6675620902437733873_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_ohc=G7lHwuI7BSIAX8GuOz4&_nc_ht=scontent-sea1-1.xx&oh=00_AfC-W1Ou7_PjN7WDgMKB3XlqgdhhyfX-qBcNN3P_hkugPA&oe=63D250D8);
+}
+
+.card:nth-of-type(3) .card-img {
+    background-image: url(https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/326735654_1343338923133534_1203649985628132118_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_ohc=4iwVreqGMFgAX-kTlIN&_nc_ht=scontent-sea1-1.xx&oh=00_AfBCLJBb5PZK5F7EwGT6NNzrSnPWC9dRrvTeNjDw8dxopw&oe=63D32F1C);
+}
