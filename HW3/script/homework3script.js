@@ -16,7 +16,7 @@ function storyFunction(choice) {
         document.getElementById("choice1").innerHTML = "Investigate";
         document.getElementById("choice2").innerHTML = "Go back";
     } else if (choice == 2 && answer2 == "Talk") {
-        document.getElementById("story").innerHTML = "ìWhat is going on here ?î You ask, as a smirk sits on top of the old mans face.In the old manís hand was a vile of green liquid.Dropping it the vile shatters across the floor and a green gas instantly envelops the area.You feel dizzy and lose consciousness.You donít know how long it has been, but you wake up in the palace dungeon.Your armor covered in blood and your weapon no longer at your side. There is a guard sleeping outside of the cell, you recognize him as one of the king's knights. On his side are the keys. Do you talk to him or steal the keys to escape?";
+        document.getElementById("story").innerHTML = "‚ÄúWhat is going on here?‚Äù You ask, as a smirk sits on top of the old mans face. In the old man‚Äôs hand was a vile of green liquid. Dropping it the vile shatters across the floor and a green gas instantly envelops the area. You feel dizzy and lose consciousness. You don‚Äôt know how long it has been, but you wake up in the palace dungeon.Your armor covered in blood and your weapon no longer at your side. There is a guard sleeping outside of the cell, you recognize him as one of the king's knights. On his side are the keys. Do you talk to him or steal the keys to escape?";
         document.getElementById("choice1").innerHTML = "Talk to the Guard";
         document.getElementById("choice2").innerHTML = "Steal the keys";
     } else if (choice == 1 && answer1 == "Stand your ground") {
@@ -37,7 +37,7 @@ function storyFunction(choice) {
         document.getElementById("choice1").innerHTML = "Save the King";
         document.getElementById("choice2").innerHTML = "Desert";
     } else if (choice == 1 && answer1 == "Talk to the Guard") {
-        document.getElementById("story").innerHTML = "The guard makes a snort as you wake him up, but he turns around to look at you. His eyes are filled with anger. ìI hope your comfy in their king killer. It is only a matter of time before you head to the block.î" + "<br> Do you try and reason with him, or steal the keys?";
+        document.getElementById("story").innerHTML = "The guard makes a snort as you wake him up, but he turns around to look at you. His eyes are filled with anger. ‚ÄúI hope your comfy in their king killer. It is only a matter of time before you head to the block.‚Äù" + "<br> Do you try and reason with him, or steal the keys?";
         document.getElementById("choice1").innerHTML = "Reason";
         document.getElementById("choice2").innerHTML = "Take the keys";
     } else if (choice == 2 && answer2 == "Steal the keys") {
@@ -49,12 +49,12 @@ function storyFunction(choice) {
         document.getElementById("choice1").innerHTML = "Restart?";
         document.getElementById("choice2").innerHTML = "Quit.";
     } else if (choice == 2 && answer2 == "Warn them of danger") {
-        document.getElementById("story").innerHTML = "No matter what is going on outside of these doors, the King must be protected! You tell them of the yell in the halls, and quickly user the King and prince to safety though their secret tunnel. Now you must decide if you should go with them or stay back to buy them time.";
+        document.getElementById("story").innerHTML = "No matter what is going on outside of these doors, the King must be protected! You tell them of the yell in the halls, and quickly usher the King and prince to safety through their secret tunnel. Now you must decide if you should go with them or stay back to buy them time.";
         document.getElementById("choice1").innerHTML = "Buy them time";
         document.getElementById("choice2").innerHTML = "Go with them";
 //Forth Set
     } else if (choice == 1 && answer1 == "Open it") {
-        document.getElementById("story").innerHTML = "You open the vial, smelling its contents. Immediately you become nauseous and collapse onto the floor. A raging migraine filling your mind with panic. When you closed your eyes to relive some of the pain.. they never opened back up. That vial is very dangerous. Maybe it was best left unopenedÖ?";
+        document.getElementById("story").innerHTML = "You open the vial, smelling its contents. Immediately you become nauseous and collapse onto the floor. A raging migraine filling your mind with panic. When you closed your eyes to relive some of the pain.. they never opened back up. That vial is very dangerous. Maybe it was best left unopened‚Ä¶?";
         document.getElementById("choice1").innerHTML = "Restart?";
         document.getElementById("choice2").innerHTML = "Quit.";
     } else if (choice == 2 && answer2 == "Take it") {
@@ -62,23 +62,23 @@ function storyFunction(choice) {
         document.getElementById("choice1").innerHTML = "Help";
         document.getElementById("choice2").innerHTML = "Use vial";
     } else if (choice == 1 && answer1 == "Save the King") {
-        document.getElementById("story").innerHTML = "You fought long and hard as you tried to fight off the large number of assassins. One by one cutting them down to save your king. It wasnít until you cut down the final assassin that you collapsed from all the wounds that you received. Regretfully, you didnít make itÖ but you will be honored the hero who saved the king." + "<br> Perhaps there is a way to save you both?";
+        document.getElementById("story").innerHTML = "You fought long and hard as you tried to fight off the large number of assassins. One by one cutting them down to save your king. It wasn‚Äôt until you cut down the final assassin that you collapsed from all the wounds that you received. Regretfully, you didn‚Äôt make it‚Ä¶ but you will be honored the hero who saved the king." + "<br> Perhaps there is a way to save you both?";
         document.getElementById("choice1").innerHTML = "Restart?";
         document.getElementById("choice2").innerHTML = "Quit.";
     } else if (choice == 2 && answer2 == "Desert") {
-        document.getElementById("story").innerHTML = "Fearing for your own life, you run out of the castle and into the countryside. It didnít take long for news to spread of the kings death and that you are now wanted for the murder of the king. You are no longer safe and are forced into hiding forever or risk execution." + " < br > Would you like to try a different path? ";
+        document.getElementById("story").innerHTML = "Fearing for your own life, you run out of the castle and into the countryside. It didn‚Äôt take long for news to spread of the kings death and that you are now wanted for the murder of the king. You are no longer safe and are forced into hiding forever or risk execution." + " < br > Would you like to try a different path? ";
         document.getElementById("choice1").innerHTML = "Restart?";
         document.getElementById("choice2").innerHTML = "Quit.";
     } else if (choice == 1 && answer1 == "Reason") {
-        document.getElementById("story").innerHTML = "You tell the man about the scream, the cloaked man, and the vial of green liquid, but he looked at you full of skepticism. ìYou expect me to believe that when you are covered in enough blood to fill a tub? We found no old man, nor a vial.î He stated, standing up and moving out of your reach and taking the keys along with him. He refused to converse with you any longer. Leaving you to quietly wait for your execution.";
+        document.getElementById("story").innerHTML = "You tell the man about the scream, the cloaked man, and the vial of green liquid, but he looked at you full of skepticism. ‚ÄúYou expect me to believe that when you are covered in enough blood to fill a tub? We found no old man, nor a vial.‚Äù He stated, standing up and moving out of your reach and taking the keys along with him. He refused to converse with you any longer. Leaving you to quietly wait for your execution.";
         document.getElementById("choice1").innerHTML = "Restart?";
         document.getElementById("choice2").innerHTML = "Quit";
     } else if (choice == 2 && answer2 == "Take the keys") {
-        document.getElementById("story").innerHTML = "The man notices you as you reach for the keys at his side. He immediately acts. Grabbing your hand he pulls you hard against the bars before driving his sword through your abdomen. Now you lay dying on the cold stone floorÖ perhaps there was a different path you could take?";
+        document.getElementById("story").innerHTML = "The man notices you as you reach for the keys at his side. He immediately acts. Grabbing your hand he pulls you hard against the bars before driving his sword through your abdomen. Now you lay dying on the cold stone floor‚Ä¶ perhaps there was a different path you could take?";
         document.getElementById("choice1").innerHTML = "Restart?";
         document.getElementById("choice2").innerHTML = "Quit.";
     } else if (choice == 1 && answer1 == "Fight") {
-        document.getElementById("story").innerHTML = "You donít know why you where arrested, but you had a strong feeling that it was going to lead to your death. No former comrade is going to keep you from survival. You hold up your fists and do your best to fight against the guards, but fists are no match for a sword. It didnít take long for you to lose the battle and your life..";
+        document.getElementById("story").innerHTML = "You don‚Äôt know why you where arrested, but you had a strong feeling that it was going to lead to your death. No former comrade is going to keep you from survival. You hold up your fists and do your best to fight against the guards, but fists are no match for a sword. It didn‚Äôt take long for you to lose the battle and your life..";
         document.getElementById("choice1").innerHTML = "Restart?";
         document.getElementById("choice2").innerHTML = "Quit.";
     } else if (choice == 2 && answer2 == "Flight") {
@@ -90,7 +90,7 @@ function storyFunction(choice) {
         document.getElementById("choice1").innerHTML = "Restart?";
         document.getElementById("choice2").innerHTML = "Quit.";
     } else if (choice == 2 && answer2 == "Go with them") {
-        document.getElementById("story").innerHTML = "It is not safe to have them go alone, the secret tunnels can be dangerous and the King needs to be watched at all times. As you make your way down the tunnel, you see a glimpse of what looks like glass in the Young Princeís hand. Do you ask about it, or attack the Prince?";
+        document.getElementById("story").innerHTML = "It is not safe to have them go alone, the secret tunnels can be dangerous and the King needs to be watched at all times. As you make your way down the tunnel, you see a glimpse of what looks like glass in the Young Prince‚Äôs hand. Do you ask about it, or attack the Prince?";
         document.getElementById("choice1").innerHTML = "Ask";
         document.getElementById("choice2").innerHTML = "Attack him";
 //Fifth Set
@@ -99,11 +99,11 @@ function storyFunction(choice) {
         document.getElementById("choice1").innerHTML = "Restart?";
         document.getElementById("choice2").innerHTML = "Quit.";
     } else if (choice == 2 && answer2 == "Use vial") {
-        document.getElementById("story").innerHTML = "You toss the vial onto the ground hoping that it will be of some help, or at least a distraction. As it shatters, a green mist appears from its contents, quickly filling the room. In the confusion you managed to run in and grab the king, pulling him outside of the chambers to safety. All the assassins getting knocked unconscious from the gas. You managed to save the king, yourself and became a hero in the process! Although you canít help but wonder, who was that old man ?";
+        document.getElementById("story").innerHTML = "You toss the vial onto the ground hoping that it will be of some help, or at least a distraction. As it shatters, a green mist appears from its contents, quickly filling the room. In the confusion you managed to run in and grab the king, pulling him outside of the chambers to safety. All the assassins getting knocked unconscious from the gas. You managed to save the king, yourself and became a hero in the process! Although you can‚Äôt help but wonder, who was that old man ?";
         document.getElementById("choice1").innerHTML = "Restart?";
         document.getElementById("choice2").innerHTML = "Quit.";
     } else if (choice == 1 && answer1 == "Ask") {
-        document.getElementById("story").innerHTML = "As you ask the prince what he has in his hands, he responds with a laugh as he drops it onto the floor. You are unable to see what it was in the tight, dark tunnels as it fell, but you heard it shatterÖ and now you are no longer awake.";
+        document.getElementById("story").innerHTML = "As you ask the prince what he has in his hands, he responds with a laugh as he drops it onto the floor. You are unable to see what it was in the tight, dark tunnels as it fell, but you heard it shatter‚Ä¶ and now you are no longer awake.";
         document.getElementById("choice1").innerHTML = "Restart?";
         document.getElementById("choice2").innerHTML = "Quit.";
     } else if (choice == 2 && answer2 == "Attack him") {
