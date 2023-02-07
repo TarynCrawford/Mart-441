@@ -16,7 +16,7 @@ function storyFunction(choice) {
         document.getElementById("choice1").innerHTML = "Investigate";
         document.getElementById("choice2").innerHTML = "Go back";
     } else if (choice == 2 && answer2 == "Talk") {
-        document.getElementById("story").innerHTML = "“What is going on here?” You ask, as a smirk sits on top of the old mans face. In the old man’s hand was a vile of green liquid. Dropping it the vile shatters across the floor and a green gas instantly envelops the area. You feel dizzy and lose consciousness. You don’t know how long it has been, but you wake up in the palace dungeon.Your armor covered in blood and your weapon no longer at your side.";
+        document.getElementById("story").innerHTML = "“What is going on here ?” You ask, as a smirk sits on top of the old mans face.In the old man’s hand was a vile of green liquid.Dropping it the vile shatters across the floor and a green gas instantly envelops the area.You feel dizzy and lose consciousness.You don’t know how long it has been, but you wake up in the palace dungeon.Your armor covered in blood and your weapon no longer at your side. There is a guard sleeping outside of the cell, you recognize him as one of the king's knights. On his side are the keys. Do you talk to him or steal the keys to escape?";
         document.getElementById("choice1").innerHTML = "Talk to the Guard";
         document.getElementById("choice2").innerHTML = "Steal the keys";
     } else if (choice == 1 && answer1 == "Stand your ground") {
