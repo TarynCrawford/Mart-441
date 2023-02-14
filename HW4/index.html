@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+    <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+    <meta charset="utf-8" />
+        <title>Choose your own adventure</title>
+        <link rel="stylesheet" href="css/homework4style.css" />
+        <script src="script/homework4script.js"></script>
+    </head>
+    <body>
+
+        <img src="images/Knight.jpg" width="400" height="602" id="mainImage">
+        <br>
+        <h1>A Knight's Mission</h1>
+        <div id="question">
+            You are a knight tasked with guarding the royal family. On this night, you are standing alone while guarding the royal chambers doors. Down the hall you hear a yell, do you go to investigate?
+        </div>
+        <br>
+
+        <input type="text" size="30" id="choice" value="Enter Yes or No">
+        <button id="btnSubmit" onclick="getChoice1();">Click to continue</button>
+
+        <input type="text" size="30" id="choice2" value="Enter 'Attack' or 'Talk'" style="display:none">
+        <button id="btnSubmit2" onclick="getChoice2();" style="display:none">Click to continue</button>
+
+        <input type="text" size="30" id="choice3" value="Enter 'Investigate' or 'Go Back'" style="display:none">
+        <button id="btnSubmit3" onclick="getChoice3();" style="display:none">Click to continue</button>
+
+        <input type="text" size="30" id="choice4" value="Enter 'Open it' or 'Take it'" style="display:none">
+        <button id="btnSubmit4" onclick="getChoice4();" style="display:none">Click to continue</button>
+
+        <input type="text" size="30" id="choice5" value="Enter 'Help' or 'Use vial'" style="display:none">
+        <button id="btnSubmit5" onclick="getChoice5();" style="display:none">Click to continue</button>
+
+        <input type="text" size="30" id="choice6" value="Enter 'Save the King' or 'Desert'" style="display:none">
+        <button id="btnSubmit6" onclick="getChoice6();" style="display:none">Click to continue</button>
+
+        <input type="text" size="30" id="choice7" value="Enter 'Talk to the Guard' or 'Steal the keys'" style="display:none">
+        <button id="btnSubmit7" onclick="getChoice7();" style="display:none">Click to continue</button>
+
+        <input type="text" size="30" id="choice8" value="Enter 'Reason' or 'Take the keys'" style="display:none">
+        <button id="btnSubmit8" onclick="getChoice8();" style="display:none">Click to continue</button>
+
+        <input type="text" size="30" id="choice9" value="Enter 'Fight' or 'Flight'" style="display:none">
+        <button id="btnSubmit9" onclick="getChoice9();" style="display:none">Click to continue</button>
+
+        <input type="text" size="30" id="choice10" value="Enter 'Stand your ground' or 'Go into the Royal Chambers'" style="display:none">
+        <button id="btnSubmit10" onclick="getChoice10();" style="display:none">Click to continue</button>
+
+        <input type="text" size="30" id="choice11" value="Enter 'Go back to your post' or 'Warn them of danger'" style="display:none">
+        <button id="btnSubmit11" onclick="getChoice11();" style="display:none">Click to continue</button>
+
+        <input type="text" size="30" id="choice12" value="Enter 'Buy them time' or 'Go with them'" style="display:none">
+        <button id="btnSubmit12" onclick="getChoice12();" style="display:none">Click to continue</button>
+
+        <input type="text" size="30" id="choice13" value="Enter 'Ask' or 'Attack him'" style="display:none">
+        <button id="btnSubmit13" onclick="getChoice13();" style="display:none">Click to continue</button>
+
+        <button id="congrats" onclick="rewardCongrats();" style="display:none">Click for reward</button>
+
+        <button onClick="window.location.reload();">Restart Story</button>
+    </body>
+
+</html>

@@ -1,0 +1,5 @@
+# Mart-441 HW4 ReadMe 
+For this weeks assignment we took our choose your own adventure webpage and expanded upon it. The option buttons are no longer present and now it takes user input for its responce. There ia also a funtion that returns a value to give the illusion of chance. This function can be found in the following path, (No, Go into the Royal Chambers, Warn them of danger, Go with them, Attack him) or in Choice 13 of the code.
+
+Orginization was another struggle this time as well, as I needed to keep stright all of the various paths and offshoots that my story has. I ended up making 13 different Choices and 15 different endings within the adventure. Some paths longer and shorter than the others. This made it essensial for me to carefully plan out the paths because otherwise I could easily link one choice else if statements with the wrong follow up. 
+As for the math funtion I tried a few different things, such as making a dice that the user can roll to determine if they live or die, however I struggled with getting it to work only durring the intended times I wanted it avaliable. I ended up scraping it and doing a simple 50% chance.
