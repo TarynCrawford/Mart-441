@@ -1,0 +1,2 @@
+# Mart-441 HW6 ReadMe 
+For this weeks assignment, I finished off working on the matching game that we had started last week. Overall I feel like it was fairly simple to go through, as it felt like it was mainly adding onto what I had already done, and just doing something different with it. I did run into difficulty trying to get everything to link together properly, but otherwise I didn't run into too many issues.
