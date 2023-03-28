@@ -1,0 +1,2 @@
+# 441 HW-8 Taryn Crawford
+For this assigment, it took me awhile to understand how the jquery worked. It felt like a lot thrown at me, but after some time, I was able to figure it out. Once I got that working, the only other difficulty I ran into this week wsa trying to figure out the timing on the fade in/out so that the text didn't change too quickly for someone to read the text, especially with me being a bit of a slower reader. Overall, I felt like I learned a lot this week, and I can see how jquery can be a powerful tool.
