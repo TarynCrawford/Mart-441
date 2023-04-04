@@ -3,7 +3,7 @@ $(document).ready(function(){
 var more_abilities = new Array();
 
 
-  $.getJSON("https://taryncrawford.github.io/Mart-441/HW8/data/sample.json", function(data){
+  $.getJSON("https://taryncrawford.github.io/Mart-441/HW9/data/sample.json", function(data){
 
         $.each(data, function(i, field){
 
