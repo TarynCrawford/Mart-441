@@ -1,0 +1,2 @@
+# 441 HW9
+For this assignment, I decided to work with the Pokemon abilities information, as it reminded me of when I played one of the Pokemon games on the Nintendo DS. It took me awhile to get this to work, as it seemed like it didn't want to work with all of the information present, so I had to cut down some of the information in each section for it to function properly. I also wasn't really able to see how it was turning out until uploading to the github.
