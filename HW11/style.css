@@ -1,0 +1,13 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+canvas{
+  border: 10px solid rgb(86, 189, 209);
+  background-color: rgb(145, 144, 144);
+}
+
+h1{
+  font-size: 75px;
+}
