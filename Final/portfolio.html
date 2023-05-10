@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <head>
+      <meta charset="utf-8" />
+      <Title> My Portfolio </Title>
+      <meta name="author" content="Taryn Crawford" />
+      <meta name="viewport" context="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="css/stylesheet.css" />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+      <script src ="scripts/main.js"></script>
+      <style>
+        #image {
+          display: flex;
+          margin: auto;
+          
+        }
+        #title {
+          margin: auto;
+          text-align: center;
+          color: #fff;
+        }
+        #btnSubmit {
+          display: flex;
+          margin: auto;
+          text-align: center;
+        }
+      </style>
+  </head>
+
+  <body onload="initializeArray();">
+    <section>
+      <img src="images/logo.png" id="logo" alt="logo">
+      
+      <label for="toggle-1" class="toggle-menu"><ul><li></li> <li></li> <li></li></ul></label>
+      <input type="checkbox" id="toggle-1">
+      
+      <nav>
+      <ul>
+      <li><a href="index.html"><i class="icon-home"></i>Home</a></li>
+      <li><a href="about.html"><i class="icon-user"></i>About</a></li>
+      <li><a href="portfolio.html"><i class="icon-gear"></i>Portfolio</a></li>
+      <li><a href="contact.html"><i class="icon-phone"></i>Contact</a></li>
+      </ul>
+      </nav>
+      
+      </section>
+      <h1>Demonstration of my work</h1>
+      <div id="title"></div>
+      <img src="images/oldDrawing.jpg" id="image" width="500" height="500">
+      <br>
+      <button id="btnSubmit" onclick="accessInformation();">Show an Image</button>
+  </br>
+ 
+
+
+    <footer>
+    <div class="palette">
+      <span class="block one"></span>
+      <span class="block two"></span>
+      <span class="block three"></span>
+      <span class="block four"></span>
+    </div>
+    </footer>
+
+    <section class="buffer"></section>
+  </body>
+</html>

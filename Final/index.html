@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+        <meta charset="utf-8" />
+        <Title> Taryn Crawford's Portfolio </Title>
+        <meta name="author" content="Taryn Crawford" />
+        <meta name="viewport" context="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/stylesheet.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <style type="text/css">
+          .content {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              width: 500px;
+              height: 200px;
+              text-align: center;
+              background-color: #e8eae6;
+              box-sizing: border-box;
+              padding: 10px;
+              z-index: 100;
+              display: none;
+              /*to hide popup initially*/
+          }
+            
+          .close-btn {
+              position: absolute;
+              right: 20px;
+              top: 15px;
+              background-color: black;
+              color: white;
+              border-radius: 50%;
+              padding: 4px;
+          }
+          button {
+            margin: auto;
+            justify-content: center;
+            padding: 40px;
+            display: flex;
+            width: 120px;
+            height: 120px;
+          }
+      </style>
+    </head>
+
+    <body>
+        <section>
+            <img src="images/logo.png" id="logo" alt="logo">
+            
+            <label for="toggle-1" class="toggle-menu"><ul><li></li> <li></li> <li></li></ul></label>
+            <input type="checkbox" id="toggle-1">
+            
+            <nav>
+            <ul>
+            <li><a href="index.html"><i class="icon-home"></i>Home</a></li>
+            <li><a href="about.html"><i class="icon-user"></i>About</a></li>
+            <li><a href="portfolio.html"><i class="icon-gear"></i>Portfolio</a></li>
+            <li><a href="contact.html"><i class="icon-phone"></i>Contact</a></li>
+            </ul>
+            </nav>
+            
+            </section>
+        <section class="hero">
+            <div class="hero-inner">
+                <h1 id="title">
+                    <ul>
+                        <li>T</li>
+                        <li>A</li>
+                        <li>R</li>
+                        <li>Y</li>
+                        <li>N</li>
+                        <br>
+                        <li>C</li>
+                        <li>R</li>
+                        <li>A</li>
+                        <li>W</li>
+                        <li>F</li>
+                        <li>O</li>
+                        <li>R</li>
+                        <li>D</li>
+                    </ul>
+                </h1>
+                <br>
+                <br>
+                <br>
+            </div>
+        </section> 
+        <button onclick="togglePopup()">Want More?</button>
+        
+        <section class="buffer"></section>
+
+            <div class="row">
+              <div class="column">
+                <img src="images/Shizuki.jpg" alt="My old style anime drawing based on Ranma 1/2" style="width:100%">
+              </div>
+              <div class="column">
+                <img src="images/stylistic.png" alt="A drawing that I tried a different style with" style="width:100%">
+              </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                  <img src="images/couchLove.png" alt="A drawing I did of my husband, myself, and my dog" style="width:100%">
+                </div>
+                <div class="column">
+                  <img src="images/thistle2.png" alt="Another image I did of Thistle" style="width:100%">
+                </div>
+              </div>
+  
+              <footer>
+                <div class="palette">
+                  <span class="block one"></span>
+                  <span class="block two"></span>
+                  <span class="block three"></span>
+                  <span class="block four"></span>
+                </div>
+                </footer>
+            
+        <section class="buffer"></section>
+  
+    <!-- div containing the popup -->
+    <div class="content">
+        <div onclick="togglePopup()" class="close-btn">
+            ×
+        </div>
+        <h3>Popup</h3>
+  
+        <p>
+            Find out more about us on our <a href="about.html" style="color: blue; font-size: large;">About</a> page!.
+        </p>
+    </div>
+  
+    <script type="text/javascript">
+      
+        // Function to show and hide the popup
+        function togglePopup() {
+            $(".content").toggle();
+        }
+    </script>
+    </body>
+</html>

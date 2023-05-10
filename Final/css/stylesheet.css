@@ -1,0 +1,514 @@
+﻿/*---nav bar---*/
+*{text-decoration:none; list-style:none; margin:0px; padding:0px; outline:none;}
+body{background-color: #222; margin:0px; padding:0px; font-family: 'Open Sans', sans-serif;}
+section{width:100%; margin:0px auto; display:table; position:relative;}
+h1{margin:0px auto; display:table; font-size:26px; padding:40px 0px; color:#e67e22; text-align:center;}
+h1 span{font-weight:500;}
+
+header{width:100%; display:table; background-color:#a430a7;}
+#logo{float:left; padding:20px 0px ; height: 14vh; width: 10vh;}
+nav{width:auto; float:right;}
+nav ul{display:table; float:right;}
+nav ul li{float:left;}
+nav ul li:last-child{padding-right:0px;}
+nav ul li a{color:#e67e22; font-size:18px; padding: 25px 20px; display:inline-block; transition: all 0.5s ease 0s;}
+nav ul li a:hover{background-color:#e67e22; color:#a430a7; transition: all 0.5s ease 0s;}
+nav ul li a:hover i{color:#a430a7; transition: all 0.5s ease 0s;}
+nav ul li a i{padding-right:10px; color:#e67e22; transition: all 0.5s ease 0s;}
+
+.toggle-menu ul{display:table; width:25px;}
+.toggle-menu ul li{width:100%; height:3px; background-color:#e67e22; margin-bottom:4px;}
+.toggle-menu ul li:last-child{margin-bottom:0px;}
+
+input[type=checkbox], label{display:none;}
+
+.content{display:table; margin-bottom:60px; width:900px;}
+.content h2{font-size:18px; font-weight:500; color:#e67e22; border-bottom:1px solid #a430a7; display:table; padding-bottom:10px; margin-bottom:10px;}
+.content p{font-size:14px; line-height:22px; color:#fff; text-align:justify;}
+
+footer{display:table; padding-bottom:30px; width:100%;}
+.social{margin:0px auto; display:table; display:table;}
+.social li{float:left; padding:0px 10px;}
+.social li a{color:#e67e22; transition: all 0.5s ease 0s;}
+.social li a:hover{color:#a430a7; transition: all 0.5s ease 0s;}
+
+/*--- responsive nav bar---*/
+@media only screen and (max-width: 1440px) {
+section{max-width:95%;}
+}
+
+@media only screen and (max-width: 980px) {
+header{padding:20px 0px;}
+#logo{padding:0px;}
+input[type=checkbox] {position: absolute; top: -9999px; left: -9999px; background:none;}
+input[type=checkbox]:fous{background:none;}
+label {position: absolute; right: 0px; padding:8px 0px; display:inline-block; cursor:pointer; }
+input[type=checkbox]:checked ~ nav {display:block;}
+
+nav{display:none; position:absolute; right:0px; top:53px; background-color:#e67e22; padding:0px; z-index:99;}
+nav ul{width:auto;}
+nav ul li{float:none; padding:0px; width:100%; display:table;}
+nav ul li a{color:#000; font-size:15px; padding:10px 20px; display:block; border-bottom: 1px solid rgba(225,225,225,0.1);}
+nav ul li a i{color:#a430a7; padding-right:13px;}
+}
+
+@media only screen and (max-width: 980px) {
+.content{width:90%;}
+}
+
+@media only screen and (max-width: 568px) {
+h1{padding:25px 0px;}
+h1 span{display:block;}
+}
+
+@media only screen and (max-width: 480px) {
+section {max-width: 90%;}
+}
+
+@media only screen and (max-width: 360px) {
+h1{font-size:20px;}
+label{padding:5px 0px;}
+#logo{font-size: 20px;}
+nav{top:47px;}
+}
+
+@media only screen and (max-width: 320px) {
+h1 {padding: 20px 0px;}
+}
+
+
+/*---Hero Image---*/
+.hero {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.hero h1 {
+    font-size: 15vw;
+    align-content: center;
+}
+
+/*---List flip---*/
+ul li {
+    list-style: none;
+    float: left;
+    transition: 0.8s;
+  }
+  
+  ul:hover li {
+    transform: rotateY(360deg);
+  }
+  
+  #title:hover {
+    color: #a430a7;
+    transform: rotateY(360deg);
+  }
+  
+/*---Gray break bar---*/
+.buffer {
+    width: 100%;
+    min-height: 10vh;
+    background-color: #fff;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+
+  /*---Home page image boxes---*/
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /*---standard page design---*/
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: sans-serif;
+  
+    height: 100%;
+  }
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+p {
+    max-width: 60ch;
+    padding: 0.5em;
+    line-height: 1.5;
+}
+
+h3 {
+    margin-top: 1em;
+    font-size: 1.6rem;
+    font-weight: 700;
+} 
+
+  /*---bottom of page design---*/
+  .palette {
+    margin: auto;
+    padding-top: 20px;
+    text-align: justify;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .block {
+    height: 10px;
+    width: 25%;
+    display: inline-block;
+  }
+  
+  .block.one {
+    background-color:#fc9618;
+  }
+  
+  .block.two {
+    background-color: #3bb2c5;
+  }
+  
+  .block.three {
+    background-color:#e67e22;
+  }
+  
+  .block.four {
+    background-color: #a430a7;
+  }
+  footer {
+    text-align: center;
+  }
+
+  /*---Contact Info---*/
+
+  .contact {
+    position: relative;
+    min-height: 10vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+  }
+
+  .contact .content {
+    max-width: 800px;
+    text-align: center;
+  }
+
+  .contact .content h2 {
+    font-size: 3em;
+    color: #000;
+    font-weight: 500;
+  }
+
+  .contact .content p {
+    color: #000;
+    font-size: 1.1em;
+    font-weight: 300;
+  }
+
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+  }
+
+  .container .contactInfo {
+    width: 50%;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container .contactInfo .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    cursor: pointer;
+  }
+
+  .container .contactInfo .box .icon {
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.75em;
+    transform: 0.5s;
+  }
+
+  .container .contactInfo .box:hover .icon
+  {
+    background: orange;
+    color: #000;
+
+  }
+
+  .container .contactInfo .box .text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    font-size: 1.1em;
+    color: #000;
+    font-weight: 300;
+  }
+
+  .container .contactInfo .box .text h3 {
+    font-weight: 500;
+    color: #3bb2c5;
+  }
+
+  .container .contactInfo .txt {
+    color:#000;
+    margin-top: 50px;
+    font-weight: 500;
+    padding-left: 10px;
+    border-left: 50px solid #fc9618;
+    line-height: 1em;
+  }
+
+.sci {
+    position: relative;
+    display: flex;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+.sci li {
+    list-style: none;
+} 
+
+.sci li a {
+    color: #000;
+    font-size: 2em;
+    transition: 0.5s;
+}
+
+.sci li a:hover {
+    color: #3bb2c5;
+}
+
+  .container .contactForm {
+    position: relative;
+    width: 40%;
+    background: #fff;
+    min-height: 100px;
+    padding: 60px;
+  }
+
+  .container .contactForm h2{
+    font-size: 2em;
+    color: #333;
+    font-weight: 500;
+  }
+
+  .container .contactForm .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .container .contactForm .inputBox input,
+  .container .contactForm .inputBox textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 1.1em;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+  }
+
+  .container .contactForm .inputBox span {
+    position: absolute;
+    left: 0;
+    pointer-events: none;
+    padding: 5px 0;
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #000;
+    transition: 0.5s;
+  }
+
+  .container .contactForm .inputBox input:focus ~ span,
+  .container .contactForm .inputBox textarea:focus ~ span,
+  .container .contactForm .inputBox input:valid ~ span,
+  .container .contactForm .inputBox textarea:valid ~ span {
+    color: #fc9618;
+    font-size: 0.9em;
+    transform: translateY(-20px);
+  }
+
+  .container .contactForm .inputBox input[type="submit"] {
+    width: 100px;
+    background: #3bb2c5;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 1.1em;
+    font-weight: 500;
+   }
+
+   /*---responsive contact---*/
+   @media (max-width: 991px)
+   {
+    .contact {
+        padding: 50px;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .container .contactInfo,
+    .container .contactForm {
+        width: 100%;
+    }
+    .container .contactForm {
+        padding: 50px 30px;
+    }
+   }
+
+/*---About Me Style---*/
+
+.heading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px auto;
+  background: #fff;
+}
+
+.heading h2 {
+  font-size: 3em;
+  color: #000;
+  font-weight: 500;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  position: relative; 
+  border-bottom: 1px solid #a430a7;
+}
+
+.heading h2::after {
+  content:"";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  display: block;
+  margin: 0 auto;
+}
+
+.heading p {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 35px;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about-image {
+  flex:1;
+  margin-right: 40px;
+  overflow: hidden;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  transition: 0.5s ease;
+}
+
+.about-content {
+  flex: 1;
+}
+
+.about-content h2 {
+  font-size: 23px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.about-content p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #fff;
+}
+
+/*---responsive About Us---*/
+
+@media screen and (max-width: 768px) {
+  .heading {
+    padding: 0px 20px;
+  }
+  .heading h1 {
+    font-size: 36px;
+  }
+  .heading p {
+    font-size: 17px;
+    margin-bottom: 0px;
+  }
+  .container {
+    padding: 0px;
+  }
+  .about {
+    padding: 20px;
+    flex-direction: column;
+  }
+  .about-image {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  .about-content p{
+    padding: 0px;
+    font-size: 16px;
+  }
+  .about-content .read-more {
+    font-size: 16px;
+  }
+}
+
